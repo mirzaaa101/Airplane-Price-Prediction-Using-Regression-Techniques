@@ -12,41 +12,36 @@ The dataset used for this project is obtained from Kaggle and can be found [here
 
 1. **Data Exploration and Visualization:**
    - Understand the structure of the dataset.
-   - Check for missing values.
-   - Visualize the distribution of the target variable and key features.
+   - Numerical Attributes Exploration
+   - Categorical Attributes Exploration
 
-3. **Feature Engineering:**
+2. **Feature Engineering:**
    - Create new features if necessary.
-   - Explore correlations between features and the target variable.
-
-2. **Data Cleaning and Preprocessing:**
+     
+3. **Data Cleaning and Preprocessing:**
    - Split the dataset into training and testing sets.
    - Handle categorical variables using techniques like one-hot encoding.
    - Scale numerical features using standardization or normalization.
+   - Filling missing with imputation techniques
 
-4. **Model Selection and Training:**
-   - In this stage, I'll experiment with various regression algorithms to predict plane prices.
-   - Train different regression models on the training set.
-
-5. **Model Training:**
-   - Split the dataset into training and testing sets.
-   - Train different regression models on the training set.
-
-6. **Model Evaluation on Training Data:**
+4. **Model Selection,Training, and Evaluation on Training Data:**
    - Evaluate the performance of each model using appropriate metrics (e.g., Root Mean Squared Error (RMSE)).
    - Try to understand overfitting and underfitting using learning curves.
    - Apply regularization techniques to mitigate overfitting and enhance model generalization.
        - L1 Regularization (Lasso):Introduce sparsity in feature selection.
        - L2 Regularization (Ridge): Control the complexity of the model and prevent overfitting.
        - Early Stopping: Halt training when the model's performance on the validation set starts to degrade.
+    
+         
+5. **Fine-Tune Model**
+    - Select the best model, and fine-tune hyperparameters to improve model performance
 
-   - Select the best model, and fine-tune hyperparameters to improve model performance.
-
-7. **Model Evaluation on Testing Data:**
+6. **Model Evaluation on Testing Data:**
    
    - RMSE: Evaluate model performance on test data using Root Mean Squared Error.
    - Confidence Interval: Assess the precision of model predictions with confidence intervals.
-
+     
+7. **Save Model**
 
 
 ## Author Name and Contact
